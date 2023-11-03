@@ -9,7 +9,7 @@ ENV GOPROXY=https://goproxy.io,direct
 WORKDIR /app
 
 # 初始化Go modules
-RUN go mod init example.com/urlodai
+RUN go mod init example.com/urlblockb
 
 # 将代码复制到容器中
 COPY . .
